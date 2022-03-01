@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "253352514443",
+    "project_id": "desafio-pokemon-1b8a8",
+    "storage_bucket": "desafio-pokemon-1b8a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253352514443:android:f53d7d7fa5e16fe9fa958e",
+        "android_client_info": {
+          "package_name": "com.goapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253352514443-31rafmlhdhq7e858usk62683059b35ge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATaYQrCb1fcoJKSr3acA-D7MXrubDAg0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253352514443-31rafmlhdhq7e858usk62683059b35ge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
