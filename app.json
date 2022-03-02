@@ -3,7 +3,9 @@
     "name": "goapp",
     "slug": "goapp",
     "version": "1.0.0",
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "plugins": [
       [
         "expo-image-picker",
@@ -11,7 +13,16 @@
           "photosPermission": "The app accesses your photos"
         }
       ]
-    ]
+    ],
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.vinicius.oliv19.goapp"
+    }
   },
   "name": "goapp"
 }
