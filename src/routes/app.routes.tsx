@@ -7,6 +7,7 @@ import { SearchPokemon } from "../screens/Search";
 import { Logo } from "../components/Logo";
 import { usePokemons } from "../hooks/usePokemons";
 import { TabNumberFavorites } from "../components/TabNumberFavorites";
+import { useDarkTheme } from "../hooks/useDarkTheme";
 
 const { Navigator, Screen } = createMaterialTopTabNavigator();
 
@@ -14,15 +15,24 @@ export const AppRoutes = () => {
   const { pokemons } = usePokemons();
   const lengthFavorites = pokemons.length;
 
+  const { isDarkTheme } = useDarkTheme();
+
   return (
     <>
       <Logo />
       <Navigator
         screenOptions={{
           tabBarIndicatorStyle: {
-            backgroundColor: "#1E1E1F",
+            backgroundColor: isDarkTheme ? "#FFCB05" : "#1E1E1F",
           },
-          tabBarStyle: { padding: 5 },
+          tabBarLabelStyle: {
+            color: isDarkTheme ? "#FFCB05" : "#1E1E1F",
+          },
+          tabBarStyle: {
+            padding: 5,
+            backgroundColor: isDarkTheme ? "#1E1E1F" : "#fff",
+          },
+          
         }}
       >
         <Screen

@@ -4,7 +4,6 @@ import { Input } from "../../components/Forms/Input";
 
 import { Container, Header, Main } from "./styles";
 import { PokemonCard } from "../../components/PokemonCard";
-import { Footer } from "../../components/Footer";
 import { ServiceApiPokemons } from "../../services/Pokemons";
 import { Modal } from "react-native";
 import { Details } from "../Details";
@@ -90,7 +89,6 @@ export const SearchPokemon = () => {
       ) : (
         <></>
       )}
-      <Footer />
     </Container>
   );
 };

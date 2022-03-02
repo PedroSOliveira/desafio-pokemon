@@ -36,7 +36,7 @@ export const Main = styled(View)`
 
 export const ButtonActivate = styled(Button)<ButtonFilterProps>`  
     background: ${({ theme, isActivated }) => isActivated ? theme.colors.yellow : theme.colors.background};
-    border: 1px solid ${({ theme, isActivated }) => isActivated ? theme.colors.yellow : theme.colors.text};
+    border: 1px solid ${({ theme, isActivated }) => isActivated ? theme.colors.yellow : theme.colors.text_dark};
     color: ${({ theme, isActivated }) => isActivated ? theme.colors.text_dark : theme.colors.text};
     max-width: 48%;
     padding: 10px;

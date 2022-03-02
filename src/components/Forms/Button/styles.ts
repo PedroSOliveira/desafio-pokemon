@@ -18,7 +18,7 @@ export const Container = styled(TouchableOpacity)<ButtonProps>`
 `;
 
 export const Title = styled(Text)<ButtonProps>`  
-    color: ${({ theme, danger }) => danger ? theme.colors.background : theme.colors.text_dark};
+    color: ${({ theme, danger }) => danger ? theme.colors.background : theme.colors.button_text};
     font-size: 16px;
     font-weight: bold;
     line-height: 24px;

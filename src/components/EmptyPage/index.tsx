@@ -1,19 +1,20 @@
-import {
-  Container,
-  EmptyImg,
-  Header,
-  Main,
-  Subtitle,
-  Title,
-} from "./styles";
+import { Container, Header, Main, Subtitle, Title } from "./styles";
+
+import pokeSplash from "../../assets/pokemon.json";
+
+import LottieView from "lottie-react-native";
 
 export const EmptyPage = () => {
   return (
     <Container>
       <Header>
-        <EmptyImg
-          resizeMode="stretch"
-          source={require("../../assets/emptyImg.png")}
+        <LottieView
+          duration={1000}
+          source={pokeSplash}
+          autoPlay
+          loop
+          resizeMode="contain"
+          style={{ height: 300 }}
         />
       </Header>
 

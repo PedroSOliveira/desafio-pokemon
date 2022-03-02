@@ -15,26 +15,30 @@ export default {
 
         red: '#FF3326',
 
-        shape: '#FFFFFF',
+        shape: '#343232',
         shape_100: '#f5f5f4',
         shape_200: '#D9E0DB',
 
         title: '#',
 
         text: '#999591',
-        text_light: '#D2D4D6',
-        text_dark: '#1E1E1F',
+        text_light: '#343232',
+        text_dark: '#FFCB05',
 
-        background: '#fff',
+        button_text: '#F3F3F3',
+        button_theme: '#E7DFDF',
+
+        background: '#343232',
 
         gray_100: '#E7DFDF',
         gray_200: '#F3F3F3',
-        gray_300: '#343232',
+        gray_300: '#FFCB05',
+
+        gray_400: '#343232',
 
         yellow: '#FFCB05',
 
 
     },
-
 
 }

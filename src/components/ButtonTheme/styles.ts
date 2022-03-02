@@ -4,7 +4,7 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 export const Container = styled(TouchableOpacity)`  
     align-items: center;
-    background: ${({ theme }) => theme.colors.gray_300};
+    background: ${({ theme }) => theme.colors.button_theme};
     border-radius: 22px;
     flex-direction: row;
     justify-content: center;

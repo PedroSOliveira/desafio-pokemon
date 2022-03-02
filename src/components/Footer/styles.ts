@@ -1,13 +1,16 @@
 import styled from 'styled-components';
 import { Text, View } from 'react-native';
 
-export const Container = styled(View)`  
-    padding: 0 20px;
+interface Props {
+    isLogging: boolean;
+}
+
+export const Container = styled(View)<Props>`  
+    padding: ${({isLogging}) => isLogging ? 20 : 0}px;
     flex-direction: row;
     width: 100%;
     background: ${({ theme }) => theme.colors.background};
     align-items: center;
-    margin-bottom: 20px;
     justify-content: space-between;
 `;
 

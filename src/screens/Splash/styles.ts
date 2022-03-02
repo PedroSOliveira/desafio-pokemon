@@ -15,7 +15,6 @@ export const Header = styled(View)`
 `;
 
 export const Main = styled(View)`
-    /* padding: 24px; */
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -26,7 +25,6 @@ export const Title = styled(Text)`
     font-size: 30px;;
     font-weight: bold;
     margin-bottom: 30px;
-
 `;
 
 export const LogoSplash = styled(Logo)`

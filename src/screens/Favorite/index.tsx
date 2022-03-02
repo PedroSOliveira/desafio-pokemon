@@ -36,8 +36,7 @@ export const ListFavorites = () => {
     setIsVisibleModalDetails(false);
   };
 
-  useEffect(() => {
-  }, [pokemons]);
+  useEffect(() => {}, [pokemons]);
 
   return (
     <Container>
@@ -63,7 +62,6 @@ export const ListFavorites = () => {
       ) : (
         <EmptyPage />
       )}
-      <Footer />
 
       <Modal visible={isVisibleModalDetails}>
         <Details

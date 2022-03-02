@@ -1,10 +1,4 @@
-import { useNavigation, CommonActions } from "@react-navigation/native";
-import { useEffect, useState } from "react";
-
-import pokeSplash from "../../assets/pokemon.json";
-
 import LottieView from "lottie-react-native";
-
 import {
   Container,
   Footer,
@@ -12,6 +6,7 @@ import {
   Header,
   Logoimg,
 } from "./styles";
+import pokeSplash from "../../assets/pokemon.json";
 
 export const SplashScreen = () => {
   return (

@@ -151,7 +151,7 @@ export const ButtonCategoryFire = styled(TouchableOpacity)`
 `;
 
 export const TextCategory = styled(Text)`
-    color: ${({ theme }) => theme.colors.text_dark};
+    color: ${({ theme }) => theme.colors.gray_400};
     font-size: 12px;
 `;
 

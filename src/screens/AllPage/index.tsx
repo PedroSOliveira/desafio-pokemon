@@ -91,8 +91,6 @@ export const PageAllPokemons = () => {
         )}
       </Main>
 
-      <Footer />
-
       <Modal visible={isVisibleModalDetails}>
         <Details
           closeModalDetails={handleCloseDetailsModal}

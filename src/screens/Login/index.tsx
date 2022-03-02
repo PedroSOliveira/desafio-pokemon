@@ -39,7 +39,7 @@ export const Login = () => {
 
         <Input
           value={email}
-          onChangeText={(text) => setEmail(text)}
+          onChangeText={(text) => setEmail(text.toLowerCase())}
           placeholder="Email => admin"
         />
         <Input

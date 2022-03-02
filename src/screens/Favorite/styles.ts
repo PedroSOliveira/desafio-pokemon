@@ -23,7 +23,6 @@ export const Title = styled(Text)`
 export const Main = styled(View)`
     flex: 1;
     justify-content: space-between;
-    margin-bottom: 15px;
     padding: 20px 15px 0;
     width: 100%;
 `;

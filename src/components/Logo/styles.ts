@@ -1,4 +1,4 @@
-import { Image, ScrollView, Text, View } from 'react-native';
+import { Image, Platform, View } from 'react-native';
 import styled from 'styled-components';
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
 
@@ -8,7 +8,7 @@ export const Container = styled(View)`
     font-size: 25px;
     height: 60px;
     justify-content: center;
-    margin-top: ${getStatusBarHeight() + 0}px;
+    margin-top: ${getStatusBarHeight() + Platform.OS === 'ios' ? 0 : -10}px;
     padding: 10px;
     width: 100%;
 `;
